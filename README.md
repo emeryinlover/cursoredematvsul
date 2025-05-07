@@ -26,12 +26,6 @@ network-training-matvsul/
 │   ├── R3005G\_Guia\_Instalacao.pdf
 │   ├── R3005G\_Configuracao\_Via\_Script.pdf
 │   ├── R3005G\_Manual\_Usuario.pdf
-│   ├── 02\_Configuracoes\_tecnologias\_virtuais.pdf
-│   ├── 03\_Configurando\_interfaces\_Ethernet.pdf
-│   ├── 04\_Protocolo\_IP\_Servicos.pdf
-│   ├── 05\_Roteamento\_Unicast.pdf
-│   ├── 07\_ACL\_QoS.pdf
-│   └── 12\_OpenFlow\.pdf
 └── examples
 
 ````
