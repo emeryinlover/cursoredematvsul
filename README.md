@@ -49,11 +49,11 @@ network-training-matvsul/
 
 - **Objetivo**: Capacitar profissionais na implantação e gerenciamento de redes corporativas com foco em segurança, VLANs, DHCP, QoS, ACLs, balanceamento de links e VPN.
 - **Público‑alvo**: Administradores de rede, engenheiros de infraestrutura e estudantes de TI.
-- **Carga horária**: 16 horas (2 dias presenciais ou remotos).
+- **Carga horária**: 16 horas (2 dias presenciais).
 
 ---
 
-## 🚀 Conteúdo e Como Usar
+## 🚀 Conteúdo
 
 ### 1. Firewall R3005G  
 Arquivos JSON importáveis via interface Web → **Configuração → Importar**  
@@ -137,5 +137,3 @@ Contribuições são bem‑vindas! Para colaborar:
 
 Curso Treinamento Redes Corporativas • Maio/2025
 
-```
-```
