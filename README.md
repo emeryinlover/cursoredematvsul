@@ -12,18 +12,12 @@ Este repositório contém todo o material gerado no curso de **Treinamento de Re
 network-training-matvsul/
 ├── README.md
 ├── firewall
-│   ├── r3005g\_user\_accounts.json
-│   ├── r3005g\_vlans.json
-│   ├── r3005g\_multwan.json
-│   └── r3005g\_openvpn.json
+│   ├── r3005g
 ├── switches
 │   ├── s3328
-│   │   ├── vlans\_and\_svis.txt
-│   │   └── dhcp\_pools.txt
 │   └── s2328
-│       └── port\_settings.txt
 ├── ap
-│   └── ax3000\_config.md
+│   └── ax3000
 ├── network\_plan
 │   ├── ip\_addressing\_scheme.txt
 │   └── provisionamento\_de\_rede\_10-0-10-0\_20.txt
@@ -39,7 +33,6 @@ network-training-matvsul/
 │   ├── 07\_ACL\_QoS.pdf
 │   └── 12\_OpenFlow\.pdf
 └── examples
-└── comware\_qos\_acl\_example.sh
 
 ````
 
