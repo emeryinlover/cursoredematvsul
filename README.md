@@ -44,19 +44,19 @@ network-training-matvsul/
 
 ### 1. Firewall R3005G  
 Arquivos JSON importáveis via interface Web → **Configuração → Importar**  
-- `firewall/r3005g_user_accounts.json` – contas de administrador  
-- `firewall/r3005g_vlans.json`       – definição de VLANs e DHCP  
-- `firewall/r3005g_multwan.json`     – balanceamento e failover de links  
-- `firewall/r3005g_openvpn.json`     – servidor OpenVPN na VLAN de gestão
+- `firewall/` – contas de administrador  
+- `firewall/`       – definição de VLANs e DHCP  
+- `firewall/`     – balanceamento e failover de links  
+- `firewall/`     – servidor OpenVPN na VLAN de gestão
 
 ### 2. Switch Layer‑3 S3328  
 Comandos Comware para SVIs e DHCP  
-- `switches/s3328/vlans_and_svis.txt` – criação de VLANs e interfaces L3  
-- `switches/s3328/dhcp_pools.txt`      – configuração de pools DHCP globais
+- `switches/s3328/ – criação de VLANs e interfaces L3  
+- `switches/s3328/ – configuração de pools DHCP globais
 
 ### 3. Switch Layer‑2 S2328  
 Portas de acesso/trunk para câmeras, AP e gestão  
-- `switches/s2328/port_settings.txt`
+- `switches/s2328/`
 
 ### 4. AP AX3000  
 Guia em Markdown para SSIDs e VLANs  
@@ -64,8 +64,8 @@ Guia em Markdown para SSIDs e VLANs
 
 ### 5. Plano de Endereçamento  
 Esquema de rede principal 10.0.10.0/20 e sub‑redes /24  
-- `network_plan/ip_addressing_scheme.txt`  
-- `network_plan/provisionamento_de_rede_10-0-10-0_20.txt`
+- `network_plan/`  
+- `network_plan/`
 
 ### 6. Documentação de Referência  
 PDFs oficiais e guias técnicos  
@@ -79,7 +79,7 @@ Script completo combinando QoS, ACL e VLAN em Comware
 
 ## ✔️ Passo a Passo
 
-1. **Clone este repositório**  
+1. **repositório**  
    ```bash
    git clone https://github.com/SEU_USUARIO/network-training-matvsul.git
    cd network-training-matvsul
@@ -88,20 +88,20 @@ Script completo combinando QoS, ACL e VLAN em Comware
 2. **Configure o R3005G**
 
    * Acesse a GUI do R3005G
-   * Importe os JSONs de `firewall/`
+   * Importe os JSONs de 
 
 3. **Configure o Switch S3328**
 
    * Acesse CLI
-   * Cole e execute os arquivos de `switches/s3328/`
+   * Cole e execute os arquivos de 
 
 4. **Configure o Switch S2328**
 
-   * No CLI, aplique `switches/s2328/port_settings.txt`
+   * No CLI, aplique 
 
 5. **Configure o AP AX3000**
 
-   * Siga o passo‑a‑passo em `ap/ax3000_config.md`
+   * Siga o passo‑a‑passo em 
 
 6. **Verifique e teste**
 
